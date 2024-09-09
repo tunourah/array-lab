@@ -70,13 +70,15 @@ console.log("Array as a string : " + string);
 // q3
 
 let fruits = ['apple', 'banana', 'cherry', 'date', 'elephant', 'bird', 'lion'];
+
+//1
 console.log("  chseck if the array contain element start with 'b' ");
 let start = fruits.map((fruit) => fruit.startsWith('b'));
 console.log("Elements of array that start with 'b' are " + start);
 
- 
-let remove1 = fruits.splice(2, 3);
-console.log("Array after removing the second element until the fifth element " + fruits);
+ //2
+let remove1 = fruits.splice(0, 3);
+console.log("Array Start From the second element until the fourth element " + fruits);
  
 let add = fruits.unshift('yellow');
 console.log("Array after adding yellow to the front " + fruits);
@@ -90,7 +92,7 @@ let words = ['hello', 'world', 'javascript', 'array', 'function'];
 let length = words.map((word) => word.length);
 console.log("Length of each word in the original array " + length);
 //2
-console.log("Find the javascript element in the array. If it exists, print it, if it does not exist, print a message that it does not exist:");
+console.log("Find the javascript element in the array : ");
 if (words.includes('javascript')) {
     console.log("Element exists");
 } else {
