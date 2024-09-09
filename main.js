@@ -1,4 +1,5 @@
-let numbers = [1, 5, 3, 8, 2, 4,6,7,9,10 ,25 ,30 ];
+let numbers = [1, 5, 3, 8, 2,4,6,7,9,10 , 27 , 99];
+
  
 
 //  sort the element of the array from smallest to largest
@@ -10,11 +11,10 @@ console.log(numbers.sort((a, b) => a - b));
 let square = numbers.map((num) => num * num);
 console.log("Square of the numbers" + square);
 
-//3 ofof
-console.log("Filter the numbers greater than 25");
-let filter = numbers.forEach((num) => num > 25);
-
-console.log("Numbers greater than 25 are " + filter);
+//3 
+console.log(" return the numbers greater than 25");
+let greater = numbers.filter((num) => num > 25);
+console.log("Numbers greater than 25 " + greater);
 // 4
 console.log("check if the array contains a number 3");
 let check = numbers.includes(3);
