@@ -63,7 +63,7 @@ console.log("Elements of array that contain the letter 'a' are  : " + contain);
 
 //2
 console.log("trun the arrray into a string ?");
-let string = names.join( " ");
+let string = names.join( " - ");
 console.log("Array as a string : " + string);
 // ------------------ 
 
