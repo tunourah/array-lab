@@ -94,7 +94,36 @@ console.log("Length of each word in the original array " + length);
 //2
 console.log("Find the javascript element in the array : ");
 if (words.includes('javascript')) {
-    console.log("Element exists");
+    console.log("Element exists"); 
 } else {
     console.log("Element does not exist");
+} 
+
+// lab function
+ 
+function sum (a,b){
+    return a+b;
 }
+console.log( "sum : "+sum(5,6));
+
+function sub (a,b){
+    return a-b;
+}
+console.log( "sub : "+sub(5,6));
+
+function mul (a,b){
+    
+    return a*b;
+}
+console.log( " mul : "+mul(5,6));
+
+function div (a,b){
+    return a/b;
+}
+console.log( "div : "+div(5,6));
+
+function mod (a,b){
+
+    return a%b;
+}
+console.log( "mod  : "+mod(5,6));
